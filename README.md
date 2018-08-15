@@ -3,6 +3,6 @@
 
 Project Witcher Clock
 
-I used HTML5, CSS3 and JavaScript
+In the project I used HTML5, CSS3 and JavaScript
 
 Live: https://vuzeta.github.io/Witcher_Clock/
