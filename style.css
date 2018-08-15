@@ -1,0 +1,106 @@
+html {
+      font-family:'helvetica neue';
+      text-align: center;
+      font-size: 10px;
+      background: url(img/bg.jpg) no-repeat center center;
+      background-size: cover;
+    }
+
+    body {
+      margin: 0;
+      font-size: 2rem;
+      display:flex;
+      flex:1;
+      min-height: 100vh;
+      align-items: center;
+    }
+/* 
+    .clock {
+      background: url(img/clock.jpg) #fff no-repeat center center;
+      width: 50rem;
+      height: 50rem;
+      border:20px solid white;
+      border-radius:50%;
+      margin:50px auto;
+      position: relative;
+      padding:4rem;
+      box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+    }
+*/
+
+    .clock {
+      position: relative;
+      left: 30%;
+      background: url(img/clock.png) no-repeat center center, url(img/witcher_logo.png) no-repeat center center, rgba(255,255,255,.2);
+      background-size: 100% 100%, 60% 60%;
+      width: 40rem;
+      height: 40rem;
+      border:20px solid rgba(255,255,255,.2);
+      border-radius:50%;
+      box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .clock-face {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-3px);
+    }
+
+    .main {
+      background: #000;
+      width: 25px;
+      height: 25px;
+      top: 47%;
+      left: 46%;
+      border-radius: 20px;
+      position: absolute;
+      z-index: 1;
+    }
+
+    .hand {
+      position: relative;
+      transition: all 0.5s;
+    }
+
+    .hour-hand {
+      background: url(img/hour.png) center center;
+      background-size: 100% 100%;
+      width: 6%;
+      height: 37%;
+      left: 46.5%;
+      top: 16.1%;
+      transform-origin: 48% 92%;
+      transform: rotate(0deg);
+    }
+
+    .min-hand {
+      background: url(img/min.png) center center;
+      background-size: 100% 100%;
+      width: 6%;
+      height: 40%;
+      left: 46.5%;
+      top: -24.6%;
+      transform-origin: 47% 94%;
+      transform: rotate(0deg);
+    }
+
+    .second-hand {
+      background: url(img/second.png) center center;
+      background-size: 100% 100%;
+      width: 46%;
+      height: 54%;
+      left: 26.5%;
+      top: -70.6%;
+      transform-origin: 50% 82%;
+      transform: rotate(0deg);
+    }
+    
