@@ -2,7 +2,7 @@
 
 ### Description 
 
-The "Invite Party" application was created on the basis of the course on the TeamTreeHouse platform. The application helps to compose a list of participants for any event.
+Project "Witcher Clock" was born after the game Witcher 3. The project had no major purpose, but it gave the opportunity to improve the skills with Date object and the transformation in CSS itself. 
 
 ------------
 ### Technology used:
